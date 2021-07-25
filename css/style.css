@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(250, 236, 238);
+}
+body > * {
+  margin: 0 auto;
+}
+.cardContainer > * {
+  margin: 0 auto;
+}
+.cardContainer {
+  width: 350px;
+  height: 200px;
+  background: linear-gradient(
+    to bottom left,
+    rgb(206, 45, 72),
+    rgb(243, 192, 96)
+  );
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.infoText {
+  color: white;
+  text-align: left;
+  margin-left: 20px;
+}
+.infoText > h4 {
+  padding-top: 30px;
+}
+.infoText > h1 {
+  margin-top: 10px;
+}
+.infoText > h5 {
+  margin-top: 50px;
+}
+#circle1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: -20px;
+  right: -70px;
+}
+#circle2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: -100px;
+  right: -50px;
+}
